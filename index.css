@@ -24,7 +24,7 @@ body {
 }
 
 
-
+/* 
 #navbar {
     background-color: var(--primary-color);
     color: #fff;
@@ -51,7 +51,7 @@ body {
   
   #navbar ul a:hover {
     background-color: rgb(253, 6, 47);
-  }
+  } */
   
   #head {
     display: flex;
