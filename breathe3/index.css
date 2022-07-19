@@ -1,0 +1,178 @@
+/* css/style.css
+@@ -0,0 +1,277 @@ */
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+/* VARIABLES */
+:root {
+  /* --primary-color: #70ace6; */
+  --primary-color: white;
+  --secondary-color:#44586e;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.54;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* UTILITY CLASSES */
+.container {
+  max-width: 1200px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 4rem;
+  text-align: center;
+  display: inline-block;
+  padding: .6rem 1.5rem;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(230, 14, 14);
+}
+
+/* ABOUT PAGE */
+/* #about {
+  height: 100vh;
+  background-color: #444;
+} */
+
+
+#logo{
+    float: left;
+    position: relative;
+    margin-right: 300px;
+}
+
+#register{
+    margin-left: 400px;
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    font-size: larger;
+    background-color: rgb(73, 156, 73);
+    border: none;
+    color: white;
+}
+
+#register:hover{
+    color: green;
+}
+
+
+#navbar {
+  background-color: var(--primary-color);
+  /* color: #fff; */
+  color: green;
+  padding: 0rem 3rem;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  width: 100vw;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+#navbar ul a {
+  display: inline-block;
+  padding: 1.2rem 2rem;
+  text-decoration: none;
+  /* color: #fff; */
+  color: green;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+#navbar ul a:hover {
+  background-color: rgb(253, 6, 47);
+  font-weight: bolder;
+  color: white;
+}
+
+#container{
+
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    height: 50vh;
+    /* background-color: yellow; */
+    justify-content: space-around;
+    padding: 32px;
+    /* margin-top: ; */
+    background-image: url('/image/IMG-20220719-WA0004.jpg');
+    
+}
+
+.item{
+
+    background-color: red;
+    margin-right: 20px;
+    border: black;
+    padding: 32px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 120px;
+    text-align: left;
+
+    
+    
+}
+
+#app{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    cursor: pointer;
+    background-color: #C2FBD7;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: #008000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 50px;
+    padding: 0 25px;
+    transition: all 200ms;
+
+    margin-top: 20px;
+}
+
+#app:hover{
+background-color: #AFE6C3;
+transform: scale(1.05);
+}
