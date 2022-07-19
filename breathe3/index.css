@@ -179,7 +179,7 @@ transform: scale(1.05);
 }
 
 section{
-  width: 60%;
+  width: 80%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -188,6 +188,7 @@ section{
     justify-content: flex-start;
     padding: 100px;
     text-align: left;
+    margin-top: -60px;
 }
 #sideline {
   display: flex;
@@ -211,6 +212,7 @@ section{
   margin-bottom: 100px;
   background-color: white;
   cursor: pointer;
+  width: 250px;
 }
 
 .about-us{
@@ -225,4 +227,26 @@ section{
 #about{
   display: flex;
   font-size: 30px;
+}
+
+
+ /* statistic row */
+#statz{
+  box-sizing: border-box;
+  display: flex;
+  /* flex-direction: column; */
+  /* height: 70vh; */
+  /* background-color: yellow; */
+  justify-content: flex-start;
+  padding: 10px;
+  text-align: left;
+  /* margin-top: -60px; */
+  margin-top: -270px;
+  margin-left: 100px;
+}
+
+.stat{
+font-size: 50px;
+color: black;
+margin-right: 150px;
 }
