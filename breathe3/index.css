@@ -249,4 +249,37 @@ section{
 font-size: 50px;
 color: black;
 margin-right: 150px;
+margin-bottom: 100px;
+align-items: center;
+}
+
+#stats-img{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-right: 150px;
+  margin-top: -300px;
+}
+
+#box1 img{
+  height: 600px;
+  width: 400px;
+  margin-top: 500px;
+  margin-left: 200px;
+  margin-right: 100px;
+
+}
+
+#box2{
+  height: 10%;
+  width: 400px;
+  margin-top: 230px;
+}
+
+#box3{
+	display: block;
+  margin-left: 100px;
+	/* width: 100%; */
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+	clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
 }
