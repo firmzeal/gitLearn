@@ -77,7 +77,7 @@ img {
     height: 40px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     cursor: pointer;
-    font-size: larger;
+    font-size: 20px;
     background-color: rgb(73, 156, 73);
     border: none;
     color: white;
@@ -125,10 +125,10 @@ img {
     width: 100vw;
     box-sizing: border-box;
     display: flex;
-    height: 50vh;
+    height: 70vh;
     /* background-color: yellow; */
-    justify-content: space-around;
-    padding: 32px;
+    justify-content: flex-start;
+    padding: 100px;
     /* margin-top: ; */
     background-image: url('/image/IMG-20220719-WA0004.jpg');
     
@@ -136,7 +136,7 @@ img {
 
 .item{
 
-    background-color: red;
+    /* background-color: red; */
     margin-right: 20px;
     border: black;
     padding: 32px;
@@ -144,8 +144,9 @@ img {
     height: 300px;
     text-align: center;
     color: black;
-    font-size: 20px;
-    margin-top: 120px;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-right: 100px;
     text-align: left;
 
     
@@ -175,4 +176,53 @@ img {
 #app:hover{
 background-color: #AFE6C3;
 transform: scale(1.05);
+}
+
+section{
+  width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    /* background-color: yellow; */
+    justify-content: flex-start;
+    padding: 100px;
+    text-align: left;
+}
+#sideline {
+  display: flex;
+  height: 75
+  border-radius: 10px;
+  display: block;
+  margin: 10px;
+  margin-bottom: 3re%;
+  background-color: green;
+  width: 15px;m;
+}
+#read-more{
+  float: left;
+  /* margin-left: 150px; */
+  margin-top: 30px;
+  color: white;
+  border-color: green white;
+  border-width: thick 5px thick 5px;
+  color: red;
+  font-size: 35px;
+  margin-bottom: 100px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.about-us{
+  font-size: 60px;
+  text-align: left;
+  /* margin-top: 150px;
+  margin-left: 150px; */
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+#about{
+  display: flex;
+  font-size: 30px;
 }
