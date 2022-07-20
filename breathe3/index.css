@@ -70,7 +70,7 @@ img {
 }
 
 #register{
-    margin-left: 400px;
+    margin-left: 450px;
     margin-top: 20px;
     border-radius: 25px;
     width: 100px;
@@ -125,12 +125,13 @@ img {
     width: 100vw;
     box-sizing: border-box;
     display: flex;
-    height: 70vh;
+    height: 100vh;
     /* background-color: yellow; */
     justify-content: flex-start;
     padding: 100px;
     /* margin-top: ; */
     background-image: url('/image/IMG-20220719-WA0004.jpg');
+    background-size: cover;
     
 }
 
@@ -140,17 +141,45 @@ img {
     margin-right: 20px;
     border: black;
     padding: 32px;
-    width: 500px;
-    height: 300px;
+    width: 800px;
+    height: 500px;
     text-align: center;
     color: black;
     font-size: 25px;
-    margin-top: 200px;
+    margin-top: 500px;
     margin-right: 100px;
     text-align: left;
 
     
     
+}
+
+.item h1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+h2 .green{
+  color: #008000;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.green{
+  color: green;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.red{
+  color: red;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.item p{
+  font-size: 30px;
+  font-weight: bold;
 }
 
 #app{
