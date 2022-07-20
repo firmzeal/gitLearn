@@ -283,3 +283,108 @@ align-items: center;
 	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 	clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
 }
+
+
+
+/* work line */
+#work{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#area {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#box-container{
+  display: flex;
+  align-items: center;
+  /* padding: 200px; */
+  justify-content: center;
+  margin: 20px;
+}
+
+.box4{
+  margin: 20px;
+  /* height: 100px; */
+}
+
+.box4 img{
+  height: 700px;
+  width: 100%;
+}
+
+/* mission and vision */
+
+#misV{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  /* width: 50%; */
+}
+
+#box5{
+
+  height: 400px;
+  margin: 50px;
+  width: 500px;
+  align-items: center;
+  justify-items: center;
+  /* width: 50%; */
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ #box5 p{
+  /* text-align: center; */
+  /* width: 40%; */
+  font-size: 30px;
+  padding-top: 130px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* justify-content: center; */
+  /* align-content: center; */
+ } 
+
+ .mission h2{
+  text-align: left;
+  margin-left: 45px;
+  font-size: 30px;
+  margin-bottom: -40px;
+ }
+
+ .vision h2{
+  text-align: right;
+  margin-right: 49px;
+  font-size: 30px;
+  margin-bottom: -40px;
+ }
+
+ #stay{
+  background-color: #008000;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+ }
+
+ #left{
+  height: 300px;
+  width: 300px;
+  color: black;
+  background-color: black;
+  margin-right: 200px;
+ }
+
+ #right{
+  text-align: left;
+  font-size: 30px;
+  margin-left: 200px;
+  width: 600px;
+ }
