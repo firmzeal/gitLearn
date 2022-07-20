@@ -70,7 +70,7 @@ img {
 }
 
 #register{
-    margin-left: 400px;
+    margin-left: 450px;
     margin-top: 20px;
     border-radius: 25px;
     width: 100px;
@@ -125,12 +125,13 @@ img {
     width: 100vw;
     box-sizing: border-box;
     display: flex;
-    height: 70vh;
+    height: 100vh;
     /* background-color: yellow; */
     justify-content: flex-start;
     padding: 100px;
     /* margin-top: ; */
     background-image: url('/image/IMG-20220719-WA0004.jpg');
+    background-size: cover;
     
 }
 
@@ -140,17 +141,45 @@ img {
     margin-right: 20px;
     border: black;
     padding: 32px;
-    width: 500px;
-    height: 300px;
+    width: 800px;
+    height: 500px;
     text-align: center;
     color: black;
     font-size: 25px;
-    margin-top: 200px;
+    margin-top: 500px;
     margin-right: 100px;
     text-align: left;
 
     
     
+}
+
+.item h1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+h2 .green{
+  color: #008000;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.green{
+  color: green;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.red{
+  color: red;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.item p{
+  font-size: 30px;
+  font-weight: bold;
 }
 
 #app{
@@ -191,13 +220,13 @@ section{
 }
 #sideline {
   display: flex;
-  height: 75
+  height: 75;
   border-radius: 10px;
   display: block;
   margin: 10px;
-  margin-bottom: 3re%;
+  margin-bottom: 3rem;
   background-color: green;
-  width: 15px;m;
+  width: 15px;
 }
 #read-more{
   float: left;
@@ -226,3 +255,163 @@ section{
   display: flex;
   font-size: 30px;
 }
+
+
+ /* statistic row */
+#statz{
+  box-sizing: border-box;
+  display: flex;
+  /* flex-direction: column; */
+  /* height: 70vh; */
+  /* background-color: yellow; */
+  justify-content: flex-start;
+  padding: 10px;
+  text-align: left;
+  /* margin-top: -60px; */
+  margin-top: -270px;
+  margin-left: 100px;
+}
+
+.stat{
+font-size: 50px;
+color: black;
+margin-right: 150px;
+margin-bottom: 100px;
+align-items: center;
+}
+
+#stats-img{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-right: 150px;
+  margin-top: -300px;
+}
+
+#box1 img{
+  height: 600px;
+  width: 400px;
+  margin-top: 500px;
+  margin-left: 200px;
+  margin-right: 100px;
+
+}
+
+#box2{
+  height: 10%;
+  width: 400px;
+  margin-top: 230px;
+}
+
+#box3{
+	display: block;
+  margin-left: 100px;
+	/* width: 100%; */
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+	clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+
+/* work line */
+#work{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#area {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#box-container{
+  display: flex;
+  align-items: center;
+  /* padding: 200px; */
+  justify-content: center;
+  margin: 20px;
+}
+
+.box4{
+  margin: 20px;
+  /* height: 100px; */
+}
+
+.box4 img{
+  height: 700px;
+  width: 100%;
+}
+
+/* mission and vision */
+
+#misV{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  /* width: 50%; */
+}
+
+#box5{
+
+  height: 400px;
+  margin: 50px;
+  width: 500px;
+  align-items: center;
+  justify-items: center;
+  /* width: 50%; */
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+ #box5 p{
+  /* text-align: center; */
+  /* width: 40%; */
+  font-size: 30px;
+  padding-top: 130px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* justify-content: center; */
+  /* align-content: center; */
+ } 
+
+ .mission h2{
+  text-align: left;
+  margin-left: 45px;
+  font-size: 30px;
+  margin-bottom: -40px;
+ }
+
+ .vision h2{
+  text-align: right;
+  margin-right: 49px;
+  font-size: 30px;
+  margin-bottom: -40px;
+ }
+
+ #stay{
+  background-color: #008000;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+ }
+
+ #left{
+  height: 300px;
+  width: 300px;
+  color: black;
+  background-color: black;
+  margin-right: 200px;
+ }
+
+ #right{
+  text-align: left;
+  font-size: 30px;
+  margin-left: 200px;
+  width: 600px;
+ }
