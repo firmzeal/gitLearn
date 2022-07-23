@@ -499,3 +499,50 @@ ul{
   color: green;
   transition: all 0.5s ease;
 }
+
+#contact-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 100%;
+}
+
+#contact-header {
+  font-size: 4vh;
+  margin: 10px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  border-radius: 5px;
+  background: rgb(73, 72, 72);
+  padding: 20px 40px;
+  outline: none;
+  opacity: 0.8;
+  color: #d2dae2;
+  transition: 0.9s;
+}
+
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
