@@ -510,7 +510,7 @@ ul{
 }
 
 #contact-header {
-  font-size: 4vh;
+  font-size: 6vh;
   margin: 10px;
   text-align: center;
 }
@@ -529,16 +529,16 @@ ul{
   margin: 16px 0;
   border: 0;
   border-radius: 5px;
-  background: rgb(73, 72, 72);
+  background: lightgrey;
   padding: 20px 40px;
   outline: none;
-  opacity: 0.8;
-  color: #d2dae2;
+  /* opacity: 0.8; */
+  color: black;
   transition: 0.9s;
 }
 
 .contact-form-text:focus {
-  box-shadow: 0 0 10px 4px #34495e;
+  box-shadow: 0 0 10px 4px black;
 }
 
 textarea.contact-form-text {
@@ -546,3 +546,17 @@ textarea.contact-form-text {
   height: 120px;
 }
 
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: lightgrey;
+  color: black;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+  background: green;
+}
