@@ -215,27 +215,18 @@ section{
     width: 180px;
     height: 40px;
     font-weight: bolder;
-    /* box-sizing: inherit; */
-    /* box-shadow: rgba(100, 100, 111, 0.2); */
     font-size: 20px;
     text-align: center;
     background-color: rgb(46, 160, 46);
     color: white;
     text-decoration: none;
-    /* transition: colour 0.5s; */
-    /* margin-left: 150px; */
-    /* margin-top: 30px;
-    
-    color: white;
-    border-color: green white;
-    border-width: thick 2px thick 2px;
-    color: red;
-    font-size: 30px;
-    margin-bottom: 100px;
-    background-color: white;
-    cursor: pointer; */
   }
-  
+  #read-more:hover{
+    color: red;
+  }
+
+
+
   .about-us{
     font-size: 70px;
     text-align: left;
@@ -351,7 +342,7 @@ section{
     /* background-repeat: no-repeat; */
     /* height: 350px; */
     /* width: 100%; */
-    width: 20%;
+    width: 10%;
     justify-content: center;
 }
 
@@ -687,8 +678,38 @@ section{
     color: green;
     transition: all 0.5s ease;
   }
-  
 
-   
+
+
+
+
+
+  /* CONTACT PAGE SYLTING */
+  .contactform {
+    padding: 90px 110px;
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
+  }
+
+
+  .contactform h2 {
+    padding-top: 2px;
+    font-size: 50px;
+    color: white;
+  }
+
+  .contactimg {
+    /* opacity: 0.5; */
+    background-image: url("image/contact\ image\ 1.jpg");
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.4);
+    /* filter: blur(-5px); */
+    /* width: 100vh; */
+    height: 100vh;
+  }
+
   
   
