@@ -207,7 +207,7 @@ section{
     width: 15px;
   }
   
-  #read-more{
+  #linkbutton{
     float: left;
     margin: -5px;
     padding-top: 15px;
@@ -221,7 +221,7 @@ section{
     color: white;
     text-decoration: none;
   }
-  #read-more:hover{
+  #linkbutton:hover{
     color: red;
   }
 
@@ -759,3 +759,4 @@ section{
     font-weight: bolder;
     font-size: 35px;
   }
+
