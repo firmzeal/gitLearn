@@ -682,8 +682,6 @@ section{
 
 
 
-
-
   /* CONTACT PAGE SYLTING */
   .contactform {
     padding: 5px 5px;
@@ -711,5 +709,53 @@ section{
     height: 100vh;
   }
 
+
+  .process {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+
+  .process h3 {
+    position: relative;
+    font-size: 2vw;
+    color: red;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.1vw red;
+  }
   
-  
+  h3::before{
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: green;
+    -webkit-text-stroke: 0.1vw green;
+    border-right: 2px solid lightsalmon;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+  @keyframes animate {
+    0%,10%,100%
+    {
+      width: 0;
+    }
+    70%,90%
+    {
+      width: 100%;
+    }
+  }
+
+  .location{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+  }
