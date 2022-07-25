@@ -49,7 +49,7 @@ body {
   }
   
   .active-nav-link a {
-    color: black !important;
+    color: green !important;
   }
   
   .nav-link-wrapper a {
