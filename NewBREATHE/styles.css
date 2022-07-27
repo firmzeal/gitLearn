@@ -254,9 +254,9 @@ section{
     background-color: white;
     border: 2px solid green;
   }
-  .aboutmargin{
-    /* margin-left: -80px; */
-  }
+  /* .aboutmargin {
+    margin-left: -80px;
+  } */
 
   .about-us{
     font-size: 70px;
@@ -574,7 +574,7 @@ section{
 
   #stay{
     background-color: white;
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: space-around;
     padding: 10px;
