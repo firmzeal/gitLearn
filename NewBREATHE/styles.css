@@ -188,6 +188,20 @@ h2 .green{
 }
 
 
+
+.aboutuspic {
+  /* background: #efefef url(../NewBREATHE/image/about\ us\ hero\ header.jpg); */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  /* color: white; */
+  position: relative;
+  height: 598px;
+  position: relative;
+}
+
+
 section{
     width: 60%;
       box-sizing: border-box;
