@@ -180,27 +180,6 @@ h2 .green{
 }
 
 
-/* About us */
-.aboutUs-wrapper{
-    background-color:rgb(183, 252, 183);
-    text-align: center;
-    /* margin: 0; */
-}
-
-
-
-.aboutuspic {
-  /* background: #efefef url(../NewBREATHE/image/about\ us\ hero\ header.jpg); */
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-align: center;
-  /* color: white; */
-  position: relative;
-  height: 598px;
-  position: relative;
-}
-
 
 section{
     width: 60%;
@@ -271,19 +250,6 @@ section{
   /* .aboutmargin {
     margin-left: -80px;
   } */
-
-  .about-us{
-    font-size: 70px;
-    text-align: left;
-    margin-bottom: -5px;
-    margin-top: 5px;
-    font-weight: bolder;
-  }
-  
-  #about{
-    display: flex;
-    font-size: 40px;
-  }
 
 
   /* mission and vision */
@@ -571,20 +537,29 @@ section{
     height: 120px;
   }
   
-  .contact-form-btn {
+
+  .contact-form-btn{
     float: right;
+    margin: 4px;
+    margin-right: 0px;
+    padding-top: 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(46, 160, 46);
+    color: white;
+    text-decoration: none;
     border: 0;
-    background: lightgrey;
-    color: black;
-    padding: 12px 50px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.5s;
   }
-  
-  .contact-form-btn:hover {
-    background: green;
+  .contact-form-btn:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid green;
   }
+
 
   #stay{
     background-color: white;
@@ -595,26 +570,54 @@ section{
     margin-top: 100px;
    }
    
-   #left{
+   /* #left{
     height: 1000px;
     width: 300px;
     margin-right: 40px;
     margin-top: 50px;
-   }
-   #left img{
+   } */
+   
+   #box7{
+    height: 400px;
+    margin: 50px;
+    width: 600px;
+    padding-top: 10px;
+    margin-left: 70px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 180px;
+    /* width: 50%; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    border-radius: 10px;
+    box-shadow: rgba(151, 151, 170, 0.25) 0px 50px 100px -20px, rgba(175, 173, 173, 0.3) 0px 30px 60px -30px,
+    rgba(169, 190, 169, 0.35) 0px -2px 6px 0px inset;
+  }
+
+
+  #boyimg {
+    padding: 25px 15px 25px 50px;
+    border-radius: 80px;
+  }
+
+   /* #left img{
     border-radius: 30px;
     height: 500px;
-   }
+   } */
   .content-wrapper h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
    #right{
     text-align: left;
     font-size: 30px;
-    margin-left: 200px;
+    margin-right: 80px;
     width: 600px;
     color: black;
     margin-top: 80px;
+   }
+
+   #right h1{
+    margin-top:100px;
    }
 
 .containerf{
@@ -851,3 +854,21 @@ section{
     font-size: 35px;
   }
 
+/* About us */
+
+/* .aboutuspic{
+  
+} */
+
+    .about-us{
+      font-size: 70px;
+      text-align: left;
+      margin-bottom: -5px;
+      margin-top: 5px;
+      font-weight: bolder;
+    }
+    
+    #about{
+      display: flex;
+      font-size: 40px;
+    }
