@@ -725,8 +725,8 @@ section{
   .copyright {
     font-size: 20px;
     color: #888d96;
-    padding-right: 90px;
-    /* padding-top: 100px; */
+    padding-left: 80px;
+    padding-top: 100px;
     /* justify-content: center; */
     display: flex;
     flex-wrap: wrap;
