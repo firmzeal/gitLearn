@@ -855,6 +855,117 @@ section{
   }
 
 /* About us css work styling */
+.aboutUs-wrapper{
+  background-color:rgb(183, 252, 183);
+  text-align: center;
+  /* margin: 0; */
+}
+
+
+section{
+  width: 60%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    /* background-color: yellow; */
+    justify-content: flex-start;
+    padding: 100px;
+    text-align: left;
+    margin-left: 50px;
+}
+#sideline {
+  display: flex;
+  height: 230px;
+  border-radius : 10px;
+  display: block; 
+  margin: 10px;
+  /* margin-bottom:; */
+  background-color: green;
+  width: 15px;
+}
+
+#linkbutton{
+  float: left;
+  margin: -5px;
+  margin-left: 8px;
+  padding-top: 18px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(46, 160, 46);
+  color: white;
+  text-decoration: none;
+}
+#linkbutton:hover{
+  color: red;
+  background-color: white;
+  border: 2px solid green;
+}
+
+
+
+#buttonsignin{
+  float: left;
+  margin: 4px;
+  margin-right: 130px;
+  padding-top: 19px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(46, 160, 46);
+  color: white;
+  text-decoration: none;
+}
+#buttonsignin:hover{
+  color: red;
+  background-color: white;
+  border: 2px solid green;
+}
+.aboutmargin{
+  /* margin-left: -80px; */
+}
+
+.about-us{
+  font-size: 70px;
+  text-align: left;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+
+#about{
+  display: flex;
+  font-size: 40px;
+}
+
+
+#linkbutton{
+  float: left;
+  margin: -5px;
+  margin-left: 8px;
+  padding-top: 18px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(46, 160, 46);
+  color: white;
+  text-decoration: none;
+}
+#linkbutton:hover{
+  color: red;
+  background-color: white;
+  border: 2px solid green;
+}
 
 #part1 {
   display: flex;
