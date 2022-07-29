@@ -716,7 +716,8 @@ section{
   
   .social-links {
     font-weight: bolder;
-    padding-right: 140px;
+    padding-right: 170px;
+    padding-left: 20px;
   }
 
 
@@ -732,6 +733,7 @@ section{
     border-radius: 50%;
     color: green;
     transition: all 0.5s ease;
+    
   }
   
   .social-links a:hover{
