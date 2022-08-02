@@ -1149,6 +1149,7 @@ section{
 }
  .container h3 {
   text-align: center;
+  font-size: 50px;
  }
 
 
@@ -1247,8 +1248,9 @@ section{
 .row{
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-left: 150px;
 }
+
 .text-panel-content{
   background-color: green;
   color: white;
