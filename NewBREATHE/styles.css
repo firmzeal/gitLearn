@@ -1122,7 +1122,7 @@ section{
   }
 }
 
-
+/* IMPACT SECTION MAIN STYLING */
 /* testmonial */
 .testmonial-wrapper {
   background: #eaf0fc;
@@ -1249,15 +1249,12 @@ section{
   justify-content: space-around;
   margin-top: 50px;
 }
-
-
 .text-panel-content{
   background-color: green;
   color: white;
   height: 400px;
   width: 400px;
   padding-left: 145px;
-
 }
 .subtitle{
   color: white;
