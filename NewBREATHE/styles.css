@@ -1151,6 +1151,11 @@ section{
   text-align: center;
  }
 
+
+ .testmonial-wrapper h6{
+  font-size: larger;
+ }
+
  #box8{
   height: 200px;
   margin: 50px;
@@ -1171,7 +1176,7 @@ section{
   /* text-align: center; */
   /* width: 40%; */
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-left: 30px;
   padding-right: 30px;
   /* justify-content: center; */
@@ -1198,7 +1203,7 @@ section{
   /* text-align: center; */
   /* width: 40%; */
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-left: 30px;
   padding-right: 30px;
   /* justify-content: center; */
@@ -1225,7 +1230,7 @@ section{
   /* text-align: center; */
   /* width: 40%; */
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-left: 30px;
   padding-right: 30px;
   /* justify-content: center; */
@@ -1243,4 +1248,18 @@ section{
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+}
+
+
+.text-panel-content{
+  background-color: green;
+  color: white;
+  height: 400px;
+  width: 400px;
+  padding-left: 145px;
+
+}
+.subtitle{
+  color: white;
+  font-size: 30px;
 }
