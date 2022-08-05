@@ -858,11 +858,15 @@ section{
 
 /* About us css work styling */
 .aboutUs-wrapper{
-  background-color:rgb(183, 252, 183);
+  background-color:rgb(90, 95, 90);
   text-align: center;
   /* margin: 0; */
 }
 
+.about-us{
+  font-size: 50px;
+  margin-right: 750px;
+}
 
 section{
   width: 60%;
@@ -874,7 +878,7 @@ section{
     justify-content: flex-start;
     padding: 100px;
     text-align: left;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 #sideline {
   display: flex;
