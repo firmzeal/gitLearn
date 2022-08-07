@@ -1298,3 +1298,54 @@ section{
   padding-bottom: 100px;
 }
 
+
+
+
+/* media Query section work for screen responsiveness */
+/* toggle button styling for screen format */
+.toggle-button {
+  position:absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: green;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .toggle-button{
+    display: flex;
+  }
+  .left-side {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .left-side a {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: .5rem 1rem;
+  }
+
+  .left-side.active {
+    display: flex;
+  }
+}
+
+
+
+/* @media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+} */
