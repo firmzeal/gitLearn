@@ -107,7 +107,7 @@ body {
 .herowrap{
     width: 50%;
     height: 50vh;
-    margin-left: 420px;
+    margin-right: 95px;
     /* margin-top: 70px; */
     
 }
@@ -117,6 +117,7 @@ body {
     border: black;
     padding: 32px;
     height: 500px;
+    width: 100%;
     /* text-align: center; */
     color: black;
     /* font-size: 45px; */
@@ -1288,7 +1289,8 @@ section{
 /* LIVE CHANGES */
 .hero-h{
   color: #282829;
-  font-size: 50px;
+  padding-top: 95px;
+  font-size: 60px;
   font-weight: 200px;
 }
 
@@ -1302,7 +1304,7 @@ section{
 
 
 /* media Query section work for screen responsiveness */
-/* toggle button styling for screen format */
+/* NAV BAR styling for screen format - toggle-button */
 .toggle-button {
   position:absolute;
   top: .75rem;
@@ -1311,17 +1313,18 @@ section{
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
-  height: 21px;
+  height: 20px;
+  z-index: inherit;
 }
 
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: green;
+  background-color: red;
   border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .toggle-button{
     display: flex;
   }
@@ -1329,7 +1332,7 @@ section{
     display: none;
     width: 100%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
   }
   .left-side a {
     flex-direction: column;
@@ -1343,9 +1346,20 @@ section{
   }
 }
 
+/* For MOBILE PHONES */
 
 
-/* @media screen and (min-width: 480px) {
-  #leftsidebar {width: 200px; float: left;}
-  #main {margin-left: 216px;}
-} */
+
+
+
+/* FOR TABLETS */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+
+/* FOR DESKTOP  */
+@media only screen and (min-width: 768px) {
+
+}
