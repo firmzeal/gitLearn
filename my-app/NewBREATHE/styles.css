@@ -644,9 +644,10 @@ section{
   
   .footer-col{
     width: 20%;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
+    padding-left: 50px;
   }
   
   .footer-col h4{
@@ -654,9 +655,9 @@ section{
     color: black;
     text-transform: capitalize;
     margin-bottom: 0px;
-    font-weight: 500;
+    font-weight: bolder;
     /* position: relative;   */
-    text-align: center;  
+    text-align: left;  
   }
   
   
@@ -677,6 +678,7 @@ section{
 
   .footer-links{
     font-size: smaller;
+    text-align: left;
     /* justify-content: center;
     align-items: center;
     text-align: center; */
