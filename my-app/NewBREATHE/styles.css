@@ -310,10 +310,6 @@ section{
     /* justify-content: center; */
     /* align-content: center; */
   } 
-
-
-
-
   
   .mission h2{
     text-align: left;
@@ -485,10 +481,18 @@ section{
 
   }
 
+  .text {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    left: 20%;
+  }
+
   /* stay in the know */
   #contact-container {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
