@@ -800,11 +800,8 @@ section{
 
   .contactimg {
     /* opacity: 0.5; */
-<<<<<<< HEAD
     background-image: url("assets/image/Breathe\ logo\ 2.png");
-=======
     background-image: url("assets/image/contact\ image\ 2.jpg image\ 2.jpg");
->>>>>>> 92150c925c4bbca12287eb391ce55edce5ea8f25
     backdrop-filter: blur(5px);
     background-size: cover;
     -webkit-backdrop-filter: blur(5px);
