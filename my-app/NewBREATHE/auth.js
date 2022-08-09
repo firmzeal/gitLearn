@@ -32,4 +32,31 @@ componentDidMount() {
     }
   }
 
+  /**
+*
+* SocialLink
+*
+*/
+
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import Button from '../../components/Button'
+
+function SocialLink({ provider }) {
+  return (
+    <a href={`http://localhost:1337/connect/${provider}`} className="link">
+      <Button type="button" social={provider}>
+        <i className={`fab fa-${provider}`} />
+        {provider}
+      </Button>
+    </a>
+  );
+}
+
+SocialLink.propTypes = {
+  provider: PropTypes.string.isRequired,
+};
+
+export default SocialLink;
 export default PrivateRoute;
