@@ -331,9 +331,23 @@ section{
     display: flex;
     padding: 1px;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-left: 100px;
     justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .line-arrow{
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 12px;
+    width: 4em;
+    height: 4em;
+    margin-top: -2em;
+    top: 50%;
+    color: red;
+    transform: rotate(50deg) skew(20deg);
   }
   
 .stat{
@@ -878,6 +892,7 @@ section{
   font-size: 50px;
   margin-right: 750px;
   padding-top: 0px;
+  width: 50%;
 }
 
 section{
@@ -1052,10 +1067,10 @@ section{
 
 #about-ustxt3{
   width: 30%;
-  height: 500px;
-  background-color: rgb(63, 179, 63);
+  height: 400px;
+  background-color: rgb(228, 238, 228);
   text-align: center;
-  color: white;
+  color: black;
   padding: 180px;
   font-weight: bolder;
   position: absolute;
@@ -1071,12 +1086,18 @@ section{
   width: 40px;
   /* height: 100%; */
   /* width: 80%; */
-  padding-top: 40px;
+  /* padding-top: 40px; */
   /* position: relative; */
-  padding-right: 15px;
-  padding-left: 770px;
+  /* padding-right: 15px; */
+  padding-left: 700px;
   /* float: right; */
   position: relative;
+}
+
+#about-usimg3 img{
+  justify-content: center;
+  padding-left: 50px;
+  margin-left: 100px;
 }
 
 
@@ -1431,6 +1452,32 @@ justify-content: center;
   font-size: 30px;
   padding-bottom: 100px;
 }
+
+
+
+
+/* about us wrapper */
+.abt-wrapper{
+  /* background-image: url(""); */
+  background-image: linear-gradient( 115deg, rgba(245, 229, 229, 0.377), 
+  rgba(203, 247, 199, 0.438) ), url("assets/image/globe-care-with-stethoscope-blue-background.jpg");
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  
+  justify-items: right;
+  
+}
+
+.abt-wrapper p{
+  font-size: 40px;
+  padding: 70px;
+  float: right;
+  width: 60%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
 
 
 
