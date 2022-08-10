@@ -865,7 +865,9 @@ section{
 
 /* About us css work styling */
 .aboutUs-wrapper{
-  background-color:rgb(90, 95, 90);
+  /* background-color:rgb(90, 95, 90); */
+
+  background-image: linear-gradient(to right, rgba(247, 177, 177, 0.26), rgba(191, 243, 184, 0.582));
   text-align: center;
   padding-top: 0px;
   /* margin: 0; */
@@ -1274,6 +1276,7 @@ justify-content: center;
       -ms-transform: translateY(-45px);
           transform: translateY(-45px);
   background: white;
+  background-color: red;
   padding: 5px;
 }
 
