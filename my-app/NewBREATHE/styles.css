@@ -37,7 +37,7 @@ body {
   
   .nav-wrapper > .left-side > div {
     margin-right: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 0.9rem;
   }
   
@@ -855,9 +855,10 @@ section{
   } */
 
   .location{
-    text-align: center;
     font-weight: bolder;
-    font-size: 35px;
+    padding-top: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 
 
@@ -1007,14 +1008,14 @@ section{
 
 
 
-#part2 {
+/* #part2 {
   display: flex;
   height: 100vh;
   /* justify-content: center; */
-  margin-bottom: 25px;
-}
+  /* margin-bottom: 25px; */
+/* } */
 
-#about-ustxt2{
+/* #about-ustxt2{
   width: 30%;
   height: 500px;
   background-color: rgb(179, 176, 176);
@@ -1028,17 +1029,17 @@ section{
 
 #about-ustxt2 p {
   padding-right: 150px;
-}
+} */
 
-#about-usimg2{
+/* #about-usimg2{
   width: 80%;
   padding-top: 40px;
   /* position: relative; */
-  padding-right: 15px;
+  /* padding-right: 15px;
   padding-left: 750px;
   /* float: right; */
-  position: relative;
-}
+  /* position: relative;
+} */ 
 
 
 
