@@ -1276,8 +1276,6 @@ justify-content: center;
   -webkit-transform: translateY(-45px);
       -ms-transform: translateY(-45px);
           transform: translateY(-45px);
-  background: white;
-  background-color: red;
   padding: 5px;
 }
 
