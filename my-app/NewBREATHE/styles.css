@@ -615,6 +615,7 @@ section{
     /* opacity: 0.8; */
     color: black;
     transition: 0.9s;
+    /* border: .1px solid black; */
   }
   
   .contact-form-text:focus {
@@ -648,6 +649,25 @@ section{
     color: red;
     background-color: white;
     border: 2px solid green;
+  }
+
+  .map{
+
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 00px;
+  }
+  iframe{
+    /* margin-top: 200px; */
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    /* max-width: 300px; */
+    
+
+
+
   }
 
 
