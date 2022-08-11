@@ -656,7 +656,7 @@ section{
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: -50px;
    }
    
    /* #left{
@@ -703,6 +703,9 @@ section{
     width: 600px;
     color: black;
     margin-top: 80px;
+   }
+   #right p{
+    font-size: 25px;
    }
 
    #right h1{
@@ -1437,7 +1440,7 @@ justify-content: center;
  } */
 
  #box8{
-  height: 300px;
+  height: 450px;
   margin: 50px;
   margin-left: 10px;
   width: 400px;
@@ -1597,6 +1600,10 @@ justify-content: center;
 
 }
 
+.text1{
+  font-size: 10px;
+}
+
 .mission-vision-wrapper{
   display: flex;
   flex-direction: row;
@@ -1610,9 +1617,10 @@ justify-content: center;
   height: 350px;
   width: 400px;
   margin-right: 100px;
-  background-color: rgb(211, 240, 241);
+  background-color: rgb(229, 243, 243);
   font-size: 10px;
   border-radius: 10px;
+  /* border: 1px solid red; */
   box-shadow: rgba(151, 151, 170, 0.25) 0px 50px 100px -20px, rgba(175, 173, 173, 0.3) 0px 30px 60px -30px,
     rgba(169, 190, 169, 0.35) 0px -2px 6px 0px inset;
 
@@ -1623,9 +1631,10 @@ justify-content: center;
   background-color: white;
   height: 350px;
   width: 450px;
-  background-color: rgb(211, 240, 241);
+  background-color: rgb(229, 243, 243);
   font-size: 10px;
   border-radius: 10px;
+  /* border: 1px solid red; */
   box-shadow: rgba(151, 151, 170, 0.25) 0px 50px 100px -20px, rgba(175, 173, 173, 0.3) 0px 30px 60px -30px,
     rgba(169, 190, 169, 0.35) 0px -2px 6px 0px inset;
     text-align: center;
@@ -1656,7 +1665,10 @@ justify-content: center;
 .adopt{
   text-align: center;
   height: 200px;
-  background-color: #008000;
+  /* background-color: #008000; */
+  background-image: linear-gradient(to right, rgba(247, 177, 177, 0.26), 
+  rgba(191, 243, 184, 0.582));
+  font-size: 30px;
   font-size: 30px;
   justify-content: center;
   align-items: center;
