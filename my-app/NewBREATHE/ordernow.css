@@ -195,12 +195,13 @@ button:hover{
 /* overlay */
 
 .box {
-    width: 40%;
+    width: 79%;
     margin: 0 auto;
+    background-color: red;
     /* background: rgba(255,255,255,0.2); */
     padding: 35px;
     border: none;
-    border-radius: 20px/50px;
+    /* border-radius: 20px/50px; */
     background-clip: padding-box;
     text-align: center;
   }
@@ -208,15 +209,15 @@ button:hover{
   .button {
     font-size: 50px;
     padding: 10px;
-    color: #fff;
-    border: 2px solid #06D85F;
+    color: white;
+    /* border: 2px solid #06D85F; */
     border-radius: 20px/50px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
   }
-  .button:hover {
-    background: #06D85F;
+  .box:hover {
+    background: green;
   }
 
   .content{
