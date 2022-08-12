@@ -550,13 +550,14 @@ section{
     font-family: sans-serif;
     padding: 2em;
   } */
-
+/* 
   .subtitle{
-    text-align: center;
-    margin-top: 70px;
-    font-size: 40px;
-    color: #008000;
-  }
+    
+    color: #282829;
+    font-size: 60px;
+    font-weight: 200px;
+    font-family: "Lato", sans-serif;
+  } */
 
   .notes{
     display: flex;
@@ -1569,8 +1570,12 @@ justify-content: center;
 }
 
 .subtitle{
-  color: black;
-  font-size: 70px;
+  color: #282829;
+  font-size: 60px;
+  font-weight: 200px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-left: 20px;
 }
 
 
