@@ -1952,3 +1952,65 @@ justify-content: center;
 
 
 
+
+
+
+
+/* MEDIA QUERY DESIGN SECTION */
+
+/* media query for 320px — 480px: Mobile devices */
+@media only screen and (max-width: 480px) {
+    .container {
+      display: block;
+      grid-template-columns: none;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+
+    .nav-wrapper {
+      display: flex;
+      background-color: white;
+      min-height: 30px;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+    .logo-wrapper .logo img{
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+
+    }
+
+
+    .nav-wrapper > .left-side > div {
+      margin-right: 0px;
+      /* text-transform: uppercase; */
+      font-size: 0.7rem;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+
+  
+    body {
+      background-color: lightgreen;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+
+    .hero-h{
+      font-size: 35px;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+  }
+
+
+
+
+
+/* media query for 481px — 768px: iPads, Tablets. */
+/* media query for 769px — 1024px: Small screens, laptops. */
+/* media query for 1025px — 1200px: Desktops, large screens. */
+/* media query for 1201px and more — Extra large screens, TV. */
+
+
+
