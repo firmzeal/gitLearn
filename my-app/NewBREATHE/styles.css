@@ -2177,8 +2177,6 @@ justify-content: center;
     }
 
     .logo-wrapper .logo img{
-      margin: 0 0 0 0px;
-      padding: 0 0 0 0px;
       margin-left: 0px;
       height: 50px;
       width: 100px;
@@ -2209,8 +2207,9 @@ justify-content: center;
 
     .hero-h{
       font-size: 25px;
-      width: 100%;
+      width: 90%;
       font-weight: 100px;
+      margin-right: 200px;
       padding: 0 0 0 0px;
     }
 
@@ -2227,13 +2226,15 @@ justify-content: center;
     }
 
     .hero-p {
-      font-size: 15px;
+      font-size: 20px;
+      width: 100%;
+      font-weight: 100px;
     }
     
     #app {
-      width: 80px;
-      height: 30px;
-      font-size: 10px;
+      width: 100px;
+      height: 40px;
+      font-size: 20px;
       margin-top: -70px;
     }
 
@@ -2242,8 +2243,8 @@ justify-content: center;
     }
 
     .herowrap img{
-      height: 220px;
-      margin-top: -200px;
+      height: 300px;
+      margin-top: -220px;
       margin-left: 90px;
     }
 
@@ -2256,7 +2257,7 @@ justify-content: center;
     .about-us {
       margin-top: -50px;
       width: 100%;
-      font-size: 25px;
+      font-size: 30px;
       text-align: left;
       margin-bottom: -5px;
       font-weight: bolder;
@@ -2272,21 +2273,21 @@ justify-content: center;
       display: flex;
       flex-wrap: wrap;
       font-size: 40px;
-      width: 200%;
+      width: 100%;
       font-weight: bolder;
       padding-top: 15px;
     }
 
     #about p{
-      font-size: 22px;
-      width: 250px;
+      font-size: 25px;
+      width: 90%;
       margin-bottom: 15px;
     }
 
     #linkbutton {
-      width: 80px;
-      height: 30px;
-      font-size: 10px;
+      width: 140px;
+      height: 35px;
+      font-size: 20px;
       margin-top: 5px;
     }
 
@@ -2307,18 +2308,17 @@ justify-content: center;
     }
 
     .enhance{
-      font-size: 20px;
+      font-size: 23px;
       font-weight: 30px;
       display: flex;
-      /* flex-wrap: wrap; */
       margin-top: -70px;
       margin-left: 35px;
-      width: 70%;
+      width: 80%;
       text-align: center;
     }
 
     #flip {
-      height:30px;
+      height:35px;
       overflow:hidden;
       margin-top: -15px;
       margin-left: 0px;
@@ -2328,23 +2328,22 @@ justify-content: center;
 
     #statz {
       margin-left: 5px;
-      /* justify-content: space-around; */
-      width: 80%;
+      width: 90%;
     }
 
     .stat{
-      font-size: 12px;
+      font-size: 15px;
     }
 
     .stat p {
-      font-size: 10px;
+      font-size: 14px;
       margin-top: 0px;
     }
 
     .breathe-approach{
       text-align: center;
       margin-top: -50px;
-      font-size: 15px;
+      font-size: 18px;
       height: 150px;
     }
 
@@ -2359,8 +2358,8 @@ justify-content: center;
     }
 
     .carousel-item img {
-      width: 150px;
-      height: 150px;
+      width: 180px;
+      height: 180px;
     }
 
     #testimonial .container2{
@@ -2369,7 +2368,7 @@ justify-content: center;
     
     .container2 h3 {
       text-align: center;
-      font-size: 15px;
+      font-size: 18px;
       margin-left: -100px;
       margin-top: -100px;
     }
@@ -2381,15 +2380,14 @@ justify-content: center;
     }
 
     .row{
-
       flex-wrap: wrap;
     }
 
     #box8{
       height: 250px;
       margin: 10px;
-      margin-left: 15px;
-      width: 50px;
+      margin-left: 150px;
+      width: 100px;
       padding-right: 20px;
       padding-top: 5px;
       border-radius: 10px;
@@ -2397,8 +2395,8 @@ justify-content: center;
     }
 
     #box8 p{
-      font-size: 10px;
-      margin-top: -75px;
+      font-size: 12px;
+      margin-top: -85px;
       padding-left: 20px;
       padding-right: 20px;
     } 
@@ -2407,7 +2405,7 @@ justify-content: center;
       border-radius: 0.2rem;
       padding: 0 20px 20px;
       margin-bottom: 60px;
-      height: 200px;
+      height: 220px;
       width: 200px;
       margin-right: 300px;
       display: block;
@@ -2490,8 +2488,8 @@ justify-content: center;
     }
 
   .containerf {
-    max-width: 100%;
-    display: block;
+      max-width: 100%;
+      display: block;
     }
 
     .footer {
@@ -2511,7 +2509,7 @@ justify-content: center;
     
     .footer-col h4{
       display: block;
-      font-size: 15px;
+      font-size: 20px;
       margin-bottom: 0px;
       font-weight: bolder;
       text-align: left;  
@@ -2544,11 +2542,12 @@ justify-content: center;
     .footer-brand img {
       height: 50px;
       width: 100px;
-      margin-left: -450px;
+      margin-left: -400px;
+      margin-right: 320px;
     }
     
     .social-links {
-      margin-left: -270px;
+      margin-left: -410px;
       width: 100%;
     }
 
@@ -2562,9 +2561,9 @@ justify-content: center;
     }
     
     .copyright {
-      font-size: 12px;
+      font-size: 15px;
       margin-left: -300px;
-      padding-top: 0px;
+      padding-top: -2px;
       justify-content: center;
     }
   }
