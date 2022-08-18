@@ -1333,12 +1333,9 @@ justify-content: center;
   width: 400px;
   padding-right: 20px;
   padding-top: 10px;
-  /* margin-left: -5px; */
   align-items: center;
   justify-content: space-between;
   justify-items: center;
-  
-  /* width: 50%; */
   text-align: center;
   border-radius: 10px;
   box-shadow: rgba(151, 151, 170, 0.25) 0px 50px 100px -20px, rgba(175, 173, 173, 0.3) 0px 30px 60px -30px,
@@ -1346,14 +1343,9 @@ justify-content: center;
 }
 
 #box8 p{
-  /* text-align: center; */
-  /* width: 40%; */
-  font-size: 20px;
-  
+  font-size: 20px; 
   padding-left: 30px;
   padding-right: 30px;
-  /* justify-content: center; */
-  /* align-content: center; */
 } 
 
 #box9{
@@ -1364,7 +1356,6 @@ justify-content: center;
   margin-left: 50px;
   align-items: center;
   justify-items: center;
-  /* width: 50%; */
   justify-content: center;
   text-align: center;
   border-radius: 10px;
@@ -1373,14 +1364,10 @@ justify-content: center;
 }
 
 #box9 p{
-  /* text-align: center; */
-  /* width: 40%; */
   font-size: 20px;
   padding-top: 0px;
   padding-left: 30px;
   padding-right: 30px;
-  /* justify-content: center; */
-  /* align-content: center; */
 }
 
 #box10{
@@ -1391,7 +1378,6 @@ justify-content: center;
   margin-left: 50px;
   align-items: center;
   justify-items: center;
-  /* width: 50%; */
   justify-content: center;
   text-align: center;
   border-radius: 10px;
@@ -1400,14 +1386,10 @@ justify-content: center;
 }
 
 #box10 p{
-  /* text-align: center; */
-  /* width: 40%; */
   font-size: 20px;
   padding-top: 0px;
   padding-left: 30px;
   padding-right: 30px;
-  /* justify-content: center; */
-  /* align-content: center; */
 } 
 
 #testmonial{
@@ -1997,8 +1979,73 @@ justify-content: center;
      }
 
      .container2 {
-      margin-top: 100px;
+      margin-top: -170px;
      }
+
+     #box8{
+      height: 200px;
+      margin: 10px;
+      margin-left: -5px;
+      display: grid;
+      width: 50px;
+      padding-right: 20px;
+      padding-top: 5px;
+      border-radius: 10px;
+      margin-right: 200px;
+    }
+    
+    #box8 p{
+      font-size: 10px;
+      margin-top: -75px;
+      padding-left: 20px;
+      padding-right: 20px;
+    } 
+
+    #testmonial {
+      margin-right: -400px;
+    }
+    .text-center pt-5{
+      margin-right: -400px;
+    }
+
+
+
+    .testmonial-wrapper {
+      border-radius: 0.2rem;
+      padding: 0 20px 20px;
+      margin-bottom: 60px;
+      height: 200px;
+      width: 200px;
+      margin-right: 300px;
+      display: block;
+    }
+    
+    .testmonial-wrapper p{
+      margin-top: -5px;
+      font-size: 2em;
+      padding: 20px;
+    }
+    
+    .testmonial-wrapper .quots {
+      font-size: 25px;
+    }
+    
+    
+    .testmonial-wrapper strong{
+      font-size: 10px;
+    }
+    
+    .testmonial-wrapper img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+    
+    .testmonial-wrapper .title {
+      margin-top: -40px;
+    }
 
 
   
