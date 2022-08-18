@@ -91,7 +91,7 @@ body {
 
   #container{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
     box-sizing: border-box;
     height: 100vh;
@@ -412,6 +412,7 @@ section{
 
 .breathe-approach{
   text-align: center;
+  height: 200px;
   background-image: linear-gradient(to right, rgba(247, 177, 177, 0.26), 
   rgba(191, 243, 184, 0.582));
   font-size: 30px;
@@ -700,7 +701,7 @@ section{
     max-width: 1800px;
     /* margin: auto; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
   }
   
@@ -970,7 +971,7 @@ section{
 
 #about{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   font-size: 40px;
   font-weight: bolder;
 }
@@ -1062,14 +1063,7 @@ section{
 #about-usimg3{
   width: 50%;
   height: 90vh;
-  /* height: 100%; */
-  /* width: 80%; */
-  /* padding-top: 40px; */
-  /* position: relative; */
-  /* padding-right: 15px; */
   padding-left: 500px;
-  /* float: right; */
-  /* position: relative; */
   background-image: linear-gradient(to right, rgba(247, 177, 177, 0.26), 
   rgba(191, 243, 184, 0.582));
 }
@@ -1761,13 +1755,9 @@ justify-content: center;
   height: 700px;
 }
 
-/* .aboutmargin{
-  flex-wrap: wrap;
-} */
 
 #about p{
   flex-wrap: wrap;
-  /* color: red; */
 }
 
 
@@ -1814,9 +1804,10 @@ justify-content: center;
 
   
       body {
-        background-color: lightgreen;
+        background-color: red;
         margin: 0 0 0 0px;
         padding: 0 0 0 0px;
+        height: 100%;
       }
 
       .hero-h{
@@ -1866,7 +1857,6 @@ justify-content: center;
         margin-top: -50px;
         width: 100%;
         font-size: 25px;
-        /* margin-right: 750px; */
         text-align: left;
         margin-bottom: -5px;
         font-weight: bolder;
@@ -1890,7 +1880,6 @@ justify-content: center;
       #about p{
         font-size: 22px;
         width: 250px;
-        /* text-align: center; */
         margin-bottom: 15px;
       }
 
@@ -1913,20 +1902,13 @@ justify-content: center;
       }
 
       button {
-        color: black;
         outline: none;
         border: none;
-        /* background: transparent; */
       }
 
       .enhance{
-        /* justify-content: center; */
-        /* text-align: center; */
-        color: red;
         font-size: 20px;
         font-weight: 30px;
-        /* font-weight: bolder; */
-        font-family: Georgia, 'Times New Roman', Times, serif;
         display: flex;
         margin-top: -70px;
         margin-left: -30px;
@@ -1980,7 +1962,7 @@ justify-content: center;
       }
 
       .container2 {
-        margin-top: -170px;
+        margin-top: 170px;
         margin-left: -50px;
       }
 
@@ -2043,51 +2025,57 @@ justify-content: center;
         margin-top: -40px;
       }
 
-    #stay {
-      height: 200px;
-      display: grid;
-      justify-content: space-around;
-      padding: 10px;
-      margin-top: -50px;
-     }
+      #stay {
+        height: 200px;
+        display: grid;
+        justify-content: space-around;
+        padding: 10px;
+        margin-top: -50px;
+      }
 
-     #box7 {
-      height: 300px;
-      margin: 50px;
-      width: 300px;
-      padding-top: 10px;
-      margin-left: 70px;
-      align-items: center;
-      justify-items: center;
-      margin-top: 180px;
-     }
+      #box7 {
+        height: 300px;
+        margin: 50px;
+        width: 300px;
+        padding-top: 10px;
+        margin-left: 70px;
+        align-items: center;
+        justify-items: center;
+        margin-top: 180px;
+      }
 
-     #box7 img{
-      height: 200px;
-      width: 250px;
-     }
+      #box7 img{
+        height: 200px;
+        width: 250px;
+      }
 
-     #right{
-      text-align: left;
-      font-size: 20px;
-      margin-right: 40px;
-      width: 400px;
-      color: black;
-      margin-top: -90px;
-     }
-     #right p{
-      font-size: 20px;
-     }
-  
-     #right h1{
-      margin-top:100px;
-     }
+      #right{
+        text-align: left;
+        font-size: 20px;
+        margin-right: 40px;
+        width: 400px;
+        margin-top: -90px;
+      }
+      #right p{
+        font-size: 20px;
+      }
+    
+      #right h1{
+        margin-top:100px;
+      }
 
-     .footer{
-      padding: 10px 10px;
-      bottom: 0;
-      width: 100%;
-     }
+      .contact-form-btn{
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 5px;
+      }
+
+      .footer{
+        padding: 10px 10px;
+        bottom: 0;
+        width: 100%;
+      }
 
      .containerf {
        max-width: 100%;
@@ -2166,6 +2154,8 @@ justify-content: center;
         padding-top: 100px;
         justify-content: center;
       }
+
+
 
 
 
