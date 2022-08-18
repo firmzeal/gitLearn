@@ -3,14 +3,7 @@ body {
     font-family: "Lato", sans-serif;
     margin: 0px;
     overflow-x: hidden;
-    /* margin-left: 50px;
-    margin-right: 50px; */
   }
-  
-  /* .container {
-    display: grid;
-    grid-template-columns: 1fr;
-  } */
   
   .nav-wrapper {
     display: flex;
@@ -24,7 +17,7 @@ body {
     min-height: 30px;
     box-shadow: rgba(151, 151, 170, 0.25) 0px 50px 100px -20px, rgba(175, 173, 173, 0.3) 0px 30px 60px -30px,
     rgba(169, 190, 169, 0.35) 0px -2px 6px 0px inset;
-    /* border-bottom: 1px solid green */
+
   }
 
   .logo{
@@ -34,6 +27,7 @@ body {
   
   .left-side {
     display: flex;
+    flex-wrap: wrap;
   }
   
   .nav-wrapper > .left-side > div {
@@ -193,12 +187,21 @@ section{
   #sideline {
     display: flex;
     height: 230px;
+    flex-wrap: wrap;
     border-radius : 10px;
-    display: block; 
+    /* display: block;  */
     margin: 10px;
     /* margin-bottom:; */
     background-color: green;
     width: 15px;
+    /* display: flex; */
+    /* height: 230px; */
+    /* border-radius : 10px; */
+    /* display: block;  */
+    /* margin: 10px; */
+    /* margin-bottom:; */
+    /* background-color: green; */
+    /* width: 15px; */
   }
   
   #linkbutton{
@@ -227,6 +230,7 @@ section{
   #buttonsignin{
     float: left;
     margin: 4px;
+    flex-wrap: wrap;
     margin-right: 130px;
     padding-top: 19px;
     border-radius: 10px;
@@ -244,9 +248,7 @@ section{
     background-color: white;
     border: 2px solid green;
   }
-  /* .aboutmargin {
-    margin-left: -80px;
-  } */
+
 
 
   /* mission and vision */
@@ -339,19 +341,6 @@ section{
     margin-bottom: 100px;
   }
 
-  /* .line-arrow{
-    position: absolute;
-    overflow: hidden;
-    display: inline-block;
-    font-size: 12px;
-    width: 4em;
-    height: 4em;
-    margin-top: -2em;
-    top: 50%;
-    color: red;
-    transform: rotate(50deg) skew(20deg);
-  } */
-
 
   /* enhance css */
 
@@ -365,6 +354,7 @@ section{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
   }
+
   #flip {
     height:50px;
     overflow:hidden;
@@ -544,21 +534,7 @@ section{
     font-size: 25px;
     /* position: relative; */
   }
-  /* .active ~ li {
-    background: green;
-  } */
-  /* body {
-    font-family: sans-serif;
-    padding: 2em;
-  } */
-/* 
-  .subtitle{
-    
-    color: #282829;
-    font-size: 60px;
-    font-weight: 200px;
-    font-family: "Lato", sans-serif;
-  } */
+
 
   .notes{
     display: flex;
@@ -923,50 +899,6 @@ section{
   }
 
 
-  /* .process {
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    margin: auto;
-    color: black;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
-  }
-
-  .process h3 {
-    position: relative;
-    font-size: 2vw;
-    color: red;
-    text-transform: uppercase;
-    -webkit-text-stroke: 0.1vw red;
-  }
-  
-  h3::before{
-    content:attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: green;
-    -webkit-text-stroke: 0.1vw green;
-    border-right: 2px solid lightsalmon;
-    overflow: hidden;
-    animation: animate 6s linear infinite;
-  }
-  @keyframes animate {
-    0%,10%,100%
-    {
-      width: 0;
-    }
-    70%,90%
-    {
-      width: 100%;
-    }
-  } */
-
   .location{
     font-weight: bolder;
     padding-top: 150px;
@@ -979,12 +911,9 @@ section{
 
 /* About us css work styling */
 .aboutUs-wrapper{
-  /* background-color:rgb(90, 95, 90); */
-
   background-image: linear-gradient(to right, rgba(247, 177, 177, 0.26), rgba(191, 243, 184, 0.582));
   text-align: center;
   padding-top: 0px;
-  /* margin: 0; */
 }
 
 .about-us{
@@ -992,6 +921,10 @@ section{
   margin-right: 750px;
   padding-top: 0px;
   width: 50%;
+  text-align: left;
+  margin-bottom: -5px;
+  margin-top: 5px;
+  font-weight: bolder;
 }
 
 section{
@@ -1005,16 +938,6 @@ section{
     padding: 100px;
     text-align: left;
     /* margin-left: 50px; */
-}
-#sideline {
-  display: flex;
-  height: 230px;
-  border-radius : 10px;
-  display: block; 
-  margin: 10px;
-  /* margin-bottom:; */
-  background-color: green;
-  width: 15px;
 }
 
 #linkbutton{
@@ -1060,20 +983,12 @@ section{
   background-color: white;
   border: 2px solid green;
 }
-/* .aboutmargin{
-  /* margin-left: -80px; */
- */
 
-.about-us{
-  font-size: 90px;
-  text-align: left;
-  margin-bottom: -5px;
-  margin-top: 5px;
-  font-weight: bolder;
-}
+
 
 #about{
   display: flex;
+  flex-wrap: wrap;
   font-size: 40px;
   font-weight: bolder;
 }
@@ -1122,39 +1037,6 @@ section{
 
 
 
-
-/* #part2 {
-  display: flex;
-  height: 100vh;
-  /* justify-content: center; */
-  /* margin-bottom: 25px; */
-/* } */
-
-/* #about-ustxt2{
-  width: 30%;
-  height: 500px;
-  background-color: rgb(179, 176, 176);
-  text-align: center;
-  color: white;
-  padding: 180px;
-  font-weight: bolder;
-  font-size: 40px;
-  position: absolute;
-}
-
-#about-ustxt2 p {
-  padding-right: 150px;
-} */
-
-/* #about-usimg2{
-  width: 80%;
-  padding-top: 40px;
-  /* position: relative; */
-  /* padding-right: 15px;
-  padding-left: 750px;
-  /* float: right; */
-  /* position: relative;
-} */ 
 
 
 
@@ -1457,18 +1339,7 @@ justify-content: center;
  }
 
 
- /* .testmonial-wrapper h6{
-  font-size: larger;
- } */
 
- /* .container2{
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-left: 250px;
-  
-  justify-content: center;
-  
- } */
 
  #box8{
   height: 450px;
@@ -1740,6 +1611,8 @@ justify-content: center;
 
 
 
+
+
 /* media Query section work for screen responsiveness */
 /* NAV BAR styling for screen format - toggle-button */
 .toggle-button {
@@ -1785,33 +1658,11 @@ justify-content: center;
   #container {
     font-size: 2px;
   }
-
-
 }
-
-/* For MOBILE PHONES */
-
-
-
-
-
-/* FOR TABLETS */
-@media only screen and (min-width: 600px) {
-
-}
-
-
-
-/* FOR DESKTOP  */
-@media only screen and (min-width: 768px) {
-
-}
-
 
 
 
 /* How it works page styling */
-
 .head1 {
   justify-content: center;
   padding-left: 300px;
@@ -1879,21 +1730,6 @@ justify-content: center;
   text-align: justify;
 }
 
-/* #linkbutton2{
-  float: left;
-  margin: -5px;
-  margin-left: 8px;
-  padding-top: 18px;
-  border-radius: 10px;
-  width: 150px;
-  height: 40px;
-  font-weight: bolder;
-  font-size: 20px;
-  text-align: center;
-  background-color: rgb(46, 160, 46);
-  color: white;
-  text-decoration: none;
-} */
 
 
 .ourtransparent{
@@ -1961,11 +1797,14 @@ justify-content: center;
   height: 700px;
 }
 
-.aboutmargin{
+/* .aboutmargin{
   flex-wrap: wrap;
+} */
+
+#about p{
+  flex-wrap: wrap;
+  /* color: red; */
 }
-
-
 
 
 
@@ -1997,7 +1836,13 @@ justify-content: center;
 
     .nav-wrapper > .left-side > div {
       margin-right: 0px;
-      /* text-transform: uppercase; */
+      font-size: 0.7rem;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+
+    .nav-wrapper > .left-side > div > #buttonsignin{
+      margin-right: 0px;
       font-size: 0.7rem;
       margin: 0 0 0 0px;
       padding: 0 0 0 0px;
@@ -2015,6 +1860,8 @@ justify-content: center;
       font-weight: 100px;
       padding: 0 0 0 0px;
     }
+
+
     #container{
       margin: 0 0 0 0px;
       padding: 0 0 0 0px;
@@ -2022,6 +1869,7 @@ justify-content: center;
 
     .item {
       margin-left: 0px;
+      padding-bottom: 0px;
     }
 
     .hero-p {
@@ -2032,21 +1880,63 @@ justify-content: center;
       width: 80px;
       height: 30px;
       font-size: 10px;
+      margin-top: -70px;
     }
 
     #applogos {
       font-size: 12px;
     }
+
     .herowrap img{
-      height: 400px;
-      margin-top: 5px;
+      height: 300px;
+      margin-top: -240px;
     }
-    .about-us{
+
+
+    .aboutUs-wrapper{
+      margin-left: -110px;
+      margin-bottom: 100px;
+    }
+
+    .about-us {
+      margin-top: -50px;
+      width: 100%;
       font-size: 30px;
-      margin-right: 0px;
-      padding-top: 0px;
-      width: 20%;
+      /* margin-right: 750px; */
+      text-align: left;
+      margin-bottom: -5px;
+      font-weight: bolder;
     }
+
+    #sideline {
+      margin-left: 2px;
+      width: 5px;
+      height: 200px;
+    }
+    
+    #about {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 40px;
+      width: 200%;
+      font-weight: bolder;
+      padding-top: 15px;
+    }
+
+    #about p{
+      font-size: 25px;
+      width: 250px;
+      /* text-align: center; */
+      margin-bottom: 15px;
+    }
+
+    #linkbutton {
+      width: 80px;
+      height: 30px;
+      font-size: 10px;
+      margin-top: 20px;
+    }
+
 
     #buttonsignin{
       width: 80px;
@@ -2054,10 +1944,42 @@ justify-content: center;
       font-size: 10px;
     }
 
-
     .logo-wrapper {
-      margin-right: 0px;
+      margin-left: -110px;
     }
+
+    button {
+      color: black;
+      outline: none;
+      border: none;
+      /* background: transparent; */
+    }
+
+    .enhance{
+      /* justify-content: center; */
+      /* text-align: center; */
+      color: red;
+      font-size: 20px;
+      font-weight: 40px;
+      font-weight: bolder;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      display: flex;
+      margin-top: -70px;
+      margin-left: -30px;
+    }
+
+    #flip {
+      height:50px;
+      overflow:hidden;
+      margin-top: 20px;
+      margin-left: 0;
+    }
+
+
+
+  
+
+  
     
 
 
