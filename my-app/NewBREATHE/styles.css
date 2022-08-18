@@ -630,10 +630,7 @@ section{
     width: 100%;
     border: 1px solid black;
     /* max-width: 300px; */
-    
-
-
-
+  
   }
 
 
@@ -2087,14 +2084,6 @@ justify-content: center;
         margin-top: 0px;
       }
 
-
-
-      /* .footer{
-        padding: 10px 10px;
-        bottom: 0;
-        width: 100%;
-      } */
-
      .containerf {
        max-width: 100%;
        display: block;
@@ -2173,19 +2162,415 @@ justify-content: center;
         padding-top: 0px;
         justify-content: center;
       }
-
-
-
-
-
-
-
-
-
     }
 
 
 /* media query for 481px — 768px: iPads, Tablets. */
+  @media only screen (min-width: 481px) and (max-width: 768px) {
+    .container {
+      display: block;
+      grid-template-columns: none;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+
+    .nav-wrapper{
+      height: 50px;
+    }
+
+    .logo-wrapper .logo img{
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+      margin-left: 0px;
+      height: 50px;
+      width: 100px;
+    }
+
+
+    .nav-wrapper > .left-side > div {
+      margin-right: 0px;
+      font-size: 0.7rem;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+
+    .nav-wrapper > .left-side > div > #buttonsignin{
+      margin-right: 0px;
+      font-size: 0.7rem;
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+    }
+
+
+    body {
+      background-color: lightblue;
+      height: 100%;
+      margin: auto;
+      padding: auto;
+    }
+
+    .hero-h{
+      font-size: 25px;
+      width: 100%;
+      font-weight: 100px;
+      padding: 0 0 0 0px;
+    }
+
+
+    #container{
+      margin: 0 0 0 0px;
+      padding: 0 0 0 0px;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      margin-left: 0px;
+      padding-bottom: 0px;
+    }
+
+    .hero-p {
+      font-size: 15px;
+    }
+    
+    #app {
+      width: 80px;
+      height: 30px;
+      font-size: 10px;
+      margin-top: -70px;
+    }
+
+    #applogos {
+      font-size: 12px;
+    }
+
+    .herowrap img{
+      height: 220px;
+      margin-top: -200px;
+      margin-left: 90px;
+    }
+
+
+    .aboutUs-wrapper{
+      margin-left: -110px;
+      margin-bottom: 60px;
+    }
+
+    .about-us {
+      margin-top: -50px;
+      width: 100%;
+      font-size: 25px;
+      text-align: left;
+      margin-bottom: -5px;
+      font-weight: bolder;
+    }
+
+    #sideline {
+      margin-left: 2px;
+      width: 5px;
+      height: 180px;
+    }
+    
+    #about {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 40px;
+      width: 200%;
+      font-weight: bolder;
+      padding-top: 15px;
+    }
+
+    #about p{
+      font-size: 22px;
+      width: 250px;
+      margin-bottom: 15px;
+    }
+
+    #linkbutton {
+      width: 80px;
+      height: 30px;
+      font-size: 10px;
+      margin-top: 5px;
+    }
+
+
+    #buttonsignin{
+      width: 80px;
+      height: 30px;
+      font-size: 10px;
+    }
+
+    .logo-wrapper {
+      margin-left: -110px;
+    }
+
+    button {
+      outline: none;
+      border: none;
+    }
+
+    .enhance{
+      font-size: 20px;
+      font-weight: 30px;
+      display: flex;
+      /* flex-wrap: wrap; */
+      margin-top: -70px;
+      margin-left: 35px;
+      width: 70%;
+      text-align: center;
+    }
+
+    #flip {
+      height:30px;
+      overflow:hidden;
+      margin-top: -15px;
+      margin-left: 0px;
+      width: 40%;
+      text-align: center;
+    }
+
+    #statz {
+      margin-left: 5px;
+      /* justify-content: space-around; */
+      width: 80%;
+    }
+
+    .stat{
+      font-size: 12px;
+    }
+
+    .stat p {
+      font-size: 10px;
+      margin-top: 0px;
+    }
+
+    .breathe-approach{
+      text-align: center;
+      margin-top: -50px;
+      font-size: 15px;
+      height: 150px;
+    }
+
+    .breathe-approach h2{
+      padding-top: 10px;
+      margin-left: -100px;
+    }
+    
+    .breathe-approach p{
+      padding-bottom: 10px;
+      margin-left: -100px;
+    }
+
+    .carousel-item img {
+      width: 150px;
+      height: 150px;
+    }
+
+    #testimonial .container2{
+      margin-right: 100px;
+    }
+    
+    .container2 h3 {
+      text-align: center;
+      font-size: 15px;
+      margin-left: -100px;
+      margin-top: -100px;
+    }
+
+    .container2 {
+      margin-top: 170px;
+      margin-left: -50px;
+      height: 500px;
+    }
+
+    .row{
+
+      flex-wrap: wrap;
+    }
+
+    #box8{
+      height: 250px;
+      margin: 10px;
+      margin-left: 15px;
+      width: 50px;
+      padding-right: 20px;
+      padding-top: 5px;
+      border-radius: 10px;
+      margin-right: 200px;
+    }
+
+    #box8 p{
+      font-size: 10px;
+      margin-top: -75px;
+      padding-left: 20px;
+      padding-right: 20px;
+    } 
+
+    .testmonial-wrapper {
+      border-radius: 0.2rem;
+      padding: 0 20px 20px;
+      margin-bottom: 60px;
+      height: 200px;
+      width: 200px;
+      margin-right: 300px;
+      display: block;
+    }
+    
+    .testmonial-wrapper p{
+      margin-top: -5px;
+      font-size: 2em;
+      padding: 20px;
+    }
+    
+    .testmonial-wrapper .quots {
+      font-size: 25px;
+    }
+
+
+    .testmonial-wrapper strong{
+      font-size: 10px;
+    }
+    
+    .testmonial-wrapper img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+    
+    .testmonial-wrapper .title {
+      margin-top: -40px;
+    }
+
+    #stay {
+      height: 550px;
+      display: flex;
+      padding: 10px;
+      margin-top: 400px;
+      flex-wrap: wrap;
+    }
+
+    #box7 {
+      height: 250px;
+      width: 300px;
+      margin-left: -40px;
+      margin-top: 0px;
+    }
+
+    #box7 img{
+      height: 200px;
+      width: 250px;
+      margin-left: -35px;
+      border-radius: 0px;
+    }
+
+    #right{
+      text-align: left;
+      font-size: 15px;
+      margin-right: 100px;
+      width: 100%;
+      margin-top: -100px;
+      flex-wrap: wrap;
+    }
+    #right p{
+      font-size: 15px;
+    }
+
+    #right h1{
+      margin-top: 70px;
+    }
+
+    .contact-form-btn{
+      width: 80px;
+      height: 30px;
+      font-size: 10px;
+      margin-top: 5px;
+    }
+
+    .footer-wrapper{
+      margin-top: 0px;
+    }
+
+  .containerf {
+    max-width: 100%;
+    display: block;
+    }
+
+    .footer {
+      padding: 80px 50px;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .footer-col {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding-left: 50px;
+      margin-left: 100px;
+    }
+    
+    .footer-col h4{
+      display: block;
+      font-size: 15px;
+      margin-bottom: 0px;
+      font-weight: bolder;
+      text-align: left;  
+      margin-left: -70px;
+    }
+    
+    
+    .footer-col ul li:not(:last-child){
+      margin-bottom: 2px;
+    }
+
+    .footer-links{
+      font-size: smaller;
+      text-align: left;
+      width: 100%;
+      padding-left: 0px;
+      margin-left: -70px;
+    }
+
+
+    .footer-col ul li a{
+      font-size: 15px;
+    }
+    
+    
+    .footer-brand {
+      margin-left: -100px;
+    }
+
+    .footer-brand img {
+      height: 50px;
+      width: 100px;
+      margin-left: -450px;
+    }
+    
+    .social-links {
+      margin-left: -270px;
+      width: 100%;
+    }
+
+
+    .social-links li {
+      height: 20px;
+      width: 10px;
+      margin: 0 10px;
+      line-height: 40px;
+      border-radius: 50%;
+    }
+    
+    .copyright {
+      font-size: 12px;
+      margin-left: -300px;
+      padding-top: 0px;
+      justify-content: center;
+    }
+  }
+
 /* media query for 769px — 1024px: Small screens, laptops. */
 /* media query for 1025px — 1200px: Desktops, large screens. */
 /* media query for 1201px and more — Extra large screens, TV. */
