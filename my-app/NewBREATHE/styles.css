@@ -2166,12 +2166,10 @@ justify-content: center;
 
 
 /* media query for 481px — 768px: iPads, Tablets. */
-  @media only screen (min-width: 481px) and (max-width: 768px) {
+  @media (min-width: 481px) and (max-width: 768px) {
     .container {
       display: block;
       grid-template-columns: none;
-      margin: 0 0 0 0px;
-      padding: 0 0 0 0px;
     }
 
     .nav-wrapper{
