@@ -2580,22 +2580,15 @@ justify-content: center;
   }
 
   .nav-wrapper{
-    height: 50px;
+    height: 80px;
   }
 
   .logo-wrapper .logo img{
     margin-left: 0px;
-    height: 50px;
-    width: 100px;
+    height: 80px;
+    width: 120px;
   }
 
-
-  .nav-wrapper > .left-side > div {
-    margin-right: 0px;
-    font-size: 0.7rem;
-    margin: 0 0 0 0px;
-    padding: 0 0 0 0px;
-  }
 
   .nav-wrapper > .left-side > div > #buttonsignin{
     margin-right: 0px;
@@ -2662,6 +2655,7 @@ justify-content: center;
     margin-left: -80px;
     margin-bottom: 60px;
     margin-top: -320px;
+    height: 400px;
   }
 
   .about-us {
@@ -2703,9 +2697,10 @@ justify-content: center;
 
 
   #buttonsignin{
-    width: 80px;
+    width: 90px;
     height: 30px;
-    font-size: 10px;
+    margin-top: 10px;
+    font-size: 15px;
   }
 
   .logo-wrapper {
